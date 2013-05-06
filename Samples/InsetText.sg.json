@@ -1,0 +1,158 @@
+{
+  "type": "AssetsLibrary",
+  "assets": [
+    {
+      "type": "Asset",
+      "title": "Inset Text",
+      "representations": [
+        {
+          "type": "AssetRepresentation",
+          "filename": "inset-text.png",
+          "rootLayer": {
+            "type": "Layer",
+            "identifier": "first",
+            "backgroundColor": [ 0.25, 0.25, 0.25, 1 ],
+            "constraints": [
+              
+              {
+                "type": "Constraint",
+                "subject": "first",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "height",
+                "relatedAttributeConstant": 20
+              },
+              {
+                "type": "Constraint",
+                "subject": "first",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "width",
+                "relatedAttributeConstant": 20
+              },
+              
+              
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "x",
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "y",
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "height",
+                "relatedAttributeConstant": 20
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "width",
+                "relatedAttributeConstant": 20
+              },
+              
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "x",
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "y",
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "fourth",
+                "relatedAttribute": "height",
+                "relatedAttributeConstant": 20
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "fourth",
+                "relatedAttribute": "width",
+                "relatedAttributeConstant": 20
+              },
+              
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "x",
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "y",
+                "relatedAttributeConstant": 10
+              },
+            ],
+            "sublayers": [
+              {
+                "type": "Layer",
+                "identifier": "second",
+                "backgroundColor": [ 0.5, 0.5, 0.5, 1 ],
+                "sublayers": [
+                  {
+                    "type": "Layer",
+                    "identifier": "third",
+                    "backgroundColor": [ 0.75, 0.75, 0.75, 1 ],
+                    "sublayers": [
+                      {
+                        "type": "Layer",
+                        "identifier": "fourth",
+                        "backgroundColor": [ 1, 1, 1, 1 ],
+                        "text": "Hello, World! "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+      ],
+      
+    }
+  ]
+}

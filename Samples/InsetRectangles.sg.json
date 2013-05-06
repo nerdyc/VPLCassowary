@@ -1,0 +1,170 @@
+{
+  "type": "AssetsLibrary",
+  "assets": [
+    {
+      "type": "Asset",
+      "title": "Inset Squares",
+      "representations": [
+        {
+          "type": "AssetRepresentation",
+          "filename": "inset-squares.png",
+          "size": [ 150, 100 ],
+          "rootLayer": {
+            "type": "Layer",
+            "identifier": "first",
+            "backgroundColor": [ 0.25, 0.25, 0.25, 1 ],
+            "constraints": [
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "x",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "y",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "height",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              },
+              {
+                "type": "Constraint",
+                "subject": "second",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "first",
+                "relatedAttribute": "width",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              },
+              
+              
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "x",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "y",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "height",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              },
+              {
+                "type": "Constraint",
+                "subject": "third",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "second",
+                "relatedAttribute": "width",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              },
+              
+              
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "x",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "x",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "y",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "y",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": 10
+              },
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "height",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "height",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              },
+              {
+                "type": "Constraint",
+                "subject": "fourth",
+                "attribute": "width",
+                "relationship": "==",
+                "relatedObject": "third",
+                "relatedAttribute": "width",
+                "relatedAttributeMultiplier": 1,
+                "relatedAttributeConstant": -20
+              }
+              
+            ],
+            "sublayers": [
+              {
+                "type": "Layer",
+                "identifier": "second",
+                "backgroundColor": [ 0.5, 0.5, 0.5, 1 ],
+                "sublayers": [
+                  {
+                    "type": "Layer",
+                    "identifier": "third",
+                    "backgroundColor": [ 0.75, 0.75, 0.75, 1 ],
+                    "sublayers": [
+                      {
+                        "type": "Layer",
+                        "identifier": "fourth",
+                        "backgroundColor": [ 1, 1, 1, 1 ],
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+      ],
+      
+    }
+  ]
+}

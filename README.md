@@ -1,0 +1,5 @@
+VPLCassowary is an "educational" implementation of the [Cassowary constraint system](http://www.cs.washington.edu/research/constraints/cassowary/) used by Cocoa Auto-Layout. It's "educational" in that I became really intrigued by auto-layout and was curious how it was implemented. It was a good excuse to brush up on my linear algebra and to try programming something math-heavy.
+
+While I expect to pick this back up when I have more time, I'm mostly posting it so that anyone else who gets curious like I was might have an Objective-C example of implementing a constraint system. I've implemented much of the algorithm, but not the non-required constraints. That is arguably one of the most important facets of the algorithm, so this is merely a toy right now.
+
+While developing VPLCassowary, I wanted a visual way of checking whether the constraints I specified were solved correctly. The `Samples` directory contains a set of files that I used to build up constraints and then render them as PNG images.
